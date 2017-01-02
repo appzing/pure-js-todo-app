@@ -1,0 +1,27 @@
+
+{
+  "name": "node-101",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "tape -r babel-register 'src/**/*spec.js'"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "stage-0"
+    ]
+  },
+  "author": "Urmila Pradeep",
+  "license": "MIT",
+  "dependencies": {
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-stage-0": "^6.5.0",
+    "shortid": "^2.2.6"
+  },
+  "devDependencies": {
+    "babel-register": "^6.14.0",
+    "tape": "^4.6.0"
+  }
+}
